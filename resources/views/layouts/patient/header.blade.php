@@ -325,6 +325,10 @@
                                 <i class="fas fa-lock"></i>
                                 <a href="{{ url('login') }}">{{ $navigation->login }}</a> / <a href="{{ url('register') }}">{{ $navigation->register }}</a>
                             </li>
+                            <li>
+                                <i class="fas fa-lock"></i>
+                                <a href="{{ url('doctor/login') }}">{{ $navigation->doctor}}</a>
+                            </li>
                             @else
                                 <li>
                                     <i class="fas fa-user"></i>
